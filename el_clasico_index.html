@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Clásico - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loading">
+    <div class="loading-ball"></div>
+  </div>
+
+  <div class="scroll-indicator"></div>
+
+  <div class="bg-animation">
+    <div class="floating-ball" style="top: 10%; left: 10%; animation-delay: 0s;"></div>
+    <div class="floating-ball" style="top: 20%; left: 80%; animation-delay: 2s;"></div>
+    <div class="floating-ball" style="top: 70%; left: 20%; animation-delay: 4s;"></div>
+    <div class="floating-ball" style="top: 80%; left: 70%; animation-delay: 6s;"></div>
+    <div class="floating-ball" style="top: 30%; left: 50%; animation-delay: 8s;"></div>
+  </div>
+
+  <div class="page-transition">
+    <div class="transition-text">Loading...</div>
+  </div>
+
+  <header>
+    <div class="skip-to-main-content">
+      <a href="#main">skip to main content</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="matches.html">Matches/Faceoffs</a></li>
+        <li><a href="stats.html">Interesting Stats</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="clickable_gallery">
+    <img src="https://via.placeholder.com/600x300/004E99/FFFFFF?text=El+Clasico+Logo" alt="image showing logos of both the clubs of the rivalry">
+  </div>
+
+  <h1 id="main">El Clásico: The Epic Rivalry That Defines Football</h1>
+
+  <div id="home-content">
+    <p>El Clásico, the fierce rivalry between Spain's football giants, Real Madrid and FC Barcelona, transcends mere sport. It is a clash of titans, steeped in history, passion, and drama, captivating millions around the globe. This iconic fixture is more than just a match; it is a cultural phenomenon that embodies the essence of football. From legendary players to unforgettable moments, El Clásico continues to write new chapters in the annals of sports history, uniting fans in their love for the beautiful game. Join us as we delve into the magic and mystique of the world's most thrilling football rivalry.</p>
+
+    <div id="gallery">
+      <img src="https://via.placeholder.com/400x250/A50044/FFFFFF?text=El+Clasico+1" alt="Players from both teams" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/004E99/FFFFFF?text=Messi+vs+Ronaldo" alt="Ronaldo and Messi rivalry" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/2E3094/FFFFFF?text=Messi+Magic" alt="Messi dribbling" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/A50044/FFFFFF?text=Ronaldo+Celebration" alt="Ronaldo celebration" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/004E99/FFFFFF?text=CR7+Wallpaper" alt="Cristiano Ronaldo wallpaper" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/2E3094/FFFFFF?text=Messi+Goal" alt="Messi celebrating" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/A50044/FFFFFF?text=Ronaldo+Goal" alt="Ronaldo celebrating" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/004E99/FFFFFF?text=Iconic+Moment" alt="Iconic celebration" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/2E3094/FFFFFF?text=El+Clasico+Wallpaper" alt="El Clasico wallpaper" onclick="openModal(this)">
+      <img src="https://via.placeholder.com/400x250/A50044/FFFFFF?text=Legends+Collide" alt="Legends wallpaper" onclick="openModal(this)">
+    </div>
+  </div>
+
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+
+  <footer>
+    <p>© Disclaimer: All images on this webpage belong to their respective owners. No copyright infringement intended. Data source:
+      <a href="https://en.wikipedia.org/wiki/List_of_El_Cl%C3%A1sico_matches">Wikipedia</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
