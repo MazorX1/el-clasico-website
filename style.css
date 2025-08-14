@@ -303,6 +303,7 @@ footer::before {
 }
 
 footer p {
+  color:#F5F5DC;
   font-size: 1rem;
   line-height: 1.6;
   opacity: 0.9;
