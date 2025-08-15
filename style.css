@@ -178,6 +178,12 @@ p {
   }
 }
 
+.responsive-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Gallery */
 #gallery {
   background: linear-gradient(135deg, #6fa8dc, #4a90e2);
